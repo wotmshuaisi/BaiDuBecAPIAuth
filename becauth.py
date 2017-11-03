@@ -58,7 +58,6 @@ class SignTokenGenerator(object):
         """
         generate signingkey
         """
-        print(self.AK, self.time, self.expire_time)
         signingkey = hmac.new(
             bytes(self.SK, 'utf-8'),
             bytes('bce-auth-v1/{}/{}/{}'.format(self.AK, self.time, self.expire_time), 'utf-8'),
