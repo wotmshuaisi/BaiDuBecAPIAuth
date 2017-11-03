@@ -1,3 +1,4 @@
+__author__ = 'github.com/wotmshuaisi'
 from urllib.request import quote
 from datetime import datetime
 import hashlib
@@ -5,6 +6,9 @@ import hmac
 import time
 
 class SignTokenGenerator(object):
+    """
+    Baidu BCE Auth Token Generator
+    """
     expire_time = 3600    
 
     def __init__(self, AK, SK, method, uri, params, host):
