@@ -1,4 +1,4 @@
-# PythonBecAPIAuth
+# PythonBceAPIAuth
 
 [![forthebadge](http://forthebadge.com/images/badges/built-by-codebabes.svg)](http://forthebadge.com)  
 
@@ -11,7 +11,7 @@ This program can generat a `API Auth Token` follow bce auth rule
 ## Example
 
 ```python
-from PythonBecAPIAuth.becauth import SignTokenGenerator
+from PythonBcceAPIAuth.bceauth import SignTokenGenerator
 # build object
 token_obj = SignTokenGenerator(
         'AK',  # access key id
