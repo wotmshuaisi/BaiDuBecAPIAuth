@@ -11,7 +11,7 @@ This program can generat a `API Auth Token` follow bce auth rule
 ## Example
 
 ```python
-from PythonBcceAPIAuth.bceauth import SignTokenGenerator
+from PythonBceAPIAuth.bceauth import SignTokenGenerator
 # build object
 token_obj = SignTokenGenerator(
         'AK',  # access key id
